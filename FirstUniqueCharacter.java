@@ -11,7 +11,7 @@
 import java.util.*;
 class FirstUniqueCharacter {
     public int firstUniqChar(String s) {
-        HashMap<Character, Integer> count = new HashMap<Character, Integer>();
+        HashMap <Character, Integer> count = new HashMap<Character, Integer>();
         int n = s.length();
         
         for (int i = 0; i < n; i++) {

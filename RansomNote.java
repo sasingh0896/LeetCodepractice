@@ -12,7 +12,7 @@
 
 // Code 
 import java.util.*;
-class Solution {
+class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         
          char tempArray[] = ransomNote.toCharArray();
